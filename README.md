@@ -39,7 +39,7 @@ Key Findings:
 
 3. Power BI 
 - Power BI Desktop: Download and install Power BI Desktop from the official [website](https://powerbi.microsoft.com/en-us/desktop/)
-- Open Dashboards: After downloading the [dashboard](https://github.com/leonemma/UCL2019Final-LIVvsTOT-Insights/blob/main/Players%20Performance.pbix) file, you can open it using Power BI Desktop.
+- Open Dashboards: After downloading the [dashboard](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/UCL%20Final%202019.pbix) file, you can open it using Power BI Desktop.
 
 ## Data   
 
