@@ -81,7 +81,7 @@ Expected Goals (xG) in football quantify the quality of scoring opportunities, o
 
  By visualizing the xG values on a minute-by-minute basis, we can analyze the scoring opportunities created by both teams and track the momentum shifts during the match. Here's a line chart by use of Power BI showcasing the progression of scoring opportunities, measured by minute, for both teams during the game.  
  
-               ![Plot1](/plots/edw.PNG)
+![Plot1](/plots/edw.PNG)
 
 
 - __Aerial Won__:
