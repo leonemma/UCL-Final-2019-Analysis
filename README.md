@@ -4,7 +4,7 @@ Dive into match statistics, player performances and tactical insights
 ## Authors
 
 - [@leonemma](https://github.com/leonemma)
-- The source code for this project is available [here](https://github.com/leonemma/UCL2019Final-LIVvsTOT-Insights/blob/main/Football%20Data%20Analysis.ipynb).
+- The source code for this project is available [here](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/Football%20Data%20Analysis.ipynb).
 
 ## Contents  
 - [Introduction](#Introduction)
