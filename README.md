@@ -79,7 +79,8 @@ Expected Goals (xG) in football quantify the quality of scoring opportunities, o
    - Liverpool xG: 1.20
    - Tottehnam xG: 0.92
 
- By visualizing the xG values on a minute-by-minute basis, we can analyze the scoring opportunities created by both teams and track the momentum shifts during the match. Here's a line chart showcasing the progression of scoring opportunities, measured by minute, for both teams during the game.  
+ By visualizing the xG values on a minute-by-minute basis, we can analyze the scoring opportunities created by both teams and track the momentum shifts during the match. Here's a line chart by use of Power BI showcasing the progression of scoring opportunities, measured by minute, for both teams during the game.  
+ 
                ![Plot1](/plots/edw.PNG)
 
 
