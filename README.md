@@ -77,41 +77,27 @@ df_event, df_related, df_freeze, df_tactics = parser.event(22912)
 
 - __Expected Goals__:
   
-Expected Goals (xG) in football quantify the quality of scoring opportunities, offering deeper insights beyond traditional statistics like goals scored. By assessing the likelihood of scoring based on various factors, xG provides a more comprehensive evaluation of team performance and strategy.  
+  Expected Goals (xG) in football quantify the quality of scoring opportunities, offering deeper insights beyond traditional statistics like goals scored. By assessing the likelihood of 
+  scoring based on various factors, xG provides a more comprehensive evaluation of team performance and strategy.  
 
-  ```python
-  team1_xG = by_team['shot_statsbomb_xg'].sum().values[0]
-  team2_xG = by_team['shot_statsbomb_xg'].sum().values[1]
-  print(f'Liverpool xG: {team1_xG:.2f}')
-  print(f'Tottehnam xG: {team2_xG:.2f}')
-  ```
-   - Liverpool xG: 1.20
-   - Tottehnam xG: 0.92
+  ![xG]('https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/xG.png')
 
- By visualizing the xG values on a minute-by-minute basis, we can analyze the scoring opportunities created by both teams and track the momentum shifts during the match. Here's a line chart by use of Power BI showcasing the progression of scoring opportunities, measured by minute, for both teams during the game.  
+
+  By visualizing the xG values on a minute-by-minute basis, we can analyze the scoring opportunities created by both teams and track the momentum shifts during the match. Here's a line 
+  chart by use of Power BI showcasing the progression of scoring opportunities, measured by minute, for both teams during the game.  
  
-![Plot1](/plots/xG_sum_snap.PNG)
+  ![xG_sum](/plots/xG_sum_snap.PNG)
 
-
-- __Aerial Won__:
-  ```python
-  team1_aerialW = by_team['aerial_won'].sum().values[0]
-  team2_aerialW = by_team['aerial_won'].sum().values[1]
-  print(f'Liverpool Aerial Wons: {team1_aerialW}')
-  print(f'Tottehnam Aerial Wons: {team2_aerialW}')
-  ```
-   - Liverpool Aerial Wons: 18
-   - Tottehnam Aerial Wons: 14
 
 - __Total Shots__:
-  ```python
-  team1_shot_cnt = df_event[(df_event['type_name']=='Shot') & (df_event['team_id']==24)].shape[0]
-  team2_shot_cnt = df_event[(df_event['type_name']=='Shot') & (df_event['team_id']==38)].shape[0]
-  print(f'Liverpool Total Shots: {team1_shot_cnt}')
-  print(f'Tottehnam Total Shots: {team2_shot_cnt}')
-  ```
-   - Liverpool Total Shots: 14
-   - Tottehnam Total Shots: 16
+  The following visualization shows the total shots of each team including the shots that was on target.
+
+  ![total_shots]('https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/total_shots.png')
+
+- __Total Passes/Accuracy(%)
+  Tottenham's passing was stronger, making more passes overall and significantly greater passing accuracy (79.3%) compared to Liverpool (62.0%), showcasing their control and precision in possession during the match.
+
+  ![total_passes]('https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/total_passes.png')
   
 
 
