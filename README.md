@@ -59,7 +59,7 @@ df_event, df_related, df_freeze, df_tactics = parser.event(22912)
 
 ## Game-Analysis  
   ### Match Score:  
-  In the UEFA Champions League final of 2019, Liverpool achieved a victory against Tottenham Hotspur with a score of 2-0. The match showcased Liverpool's passion and clinical finishing, securing their sixth European title. 
+  In the UEFA Champions League final of 2019, Liverpool achieved a victory against Tottenham Hotspur with a score of __2-0__. The match showcased Liverpool's passion and clinical finishing, securing their sixth European title. 
 
   ### Lineups
   
@@ -76,7 +76,7 @@ df_event, df_related, df_freeze, df_tactics = parser.event(22912)
   
    ![xG](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/xG.png)
 
-  By visualizing the xG values on a minute-by-minute basis, we can analyze the scoring opportunities created by both teams and track the momentum shifts during the match. Here's a line 
+  By visualizing the xG values on a minute-by-minute basis, we can analyze the scoring opportunities created by both teams and track the __momentum__ shifts during the match. Here's a line 
   chart by use of Power BI showcasing the progression of scoring opportunities, measured by minute, for both teams during the game.  
  
    ![xG_sum](/plots/xG_sum_snap.PNG)
@@ -88,7 +88,7 @@ df_event, df_related, df_freeze, df_tactics = parser.event(22912)
    ![total_shots](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/total_shots.png)
 
   ### Total Passes/Accuracy(%)
-  Tottenham's passing was stronger, making more passes overall and significantly greater passing accuracy (79.3%) compared to Liverpool (62.0%), showcasing their control and precision in possession during the match.
+  Tottenham was more dominant in ball traffic, making more passes overall and significantly greater passing accuracy (79.3%) compared to Liverpool (62.0%), showcasing their control and precision in possession during the match.
 
    ![total_passes](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/total_passes.png)
 
@@ -100,7 +100,18 @@ df_event, df_related, df_freeze, df_tactics = parser.event(22912)
   Liverpool completed 2 successful dribbles out of 6 attempts, while Tottenham achieved 4 successful dribbles out of 9 attempts, achieving a higher success rate during the match.
 
   ### Aerials Won  
+  
   The next plot focuses on the aerials attempts during the game.  
-                     ![aerial_won](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/aerials_won.png)  
+  
+  ![aerial_won](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/aerial_corrected.png)  
+
+  Liverpool outmatched Tottenham in successful aerial attempts, winning 18 of them.  
+
+  ### Shots Map  
+  In the following shot map we can see the locations of shots taken by Liverpool's players during the match. The bigger the marker is the greater the expected goal of the corresponding shot. It's obvious that the biggest chance for Liverpool based on the xG was the penalty that had at the beginning of the game (1'), when Salah scored.  
+
+  ![shot_map_liverpool](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/plot4.png)  
+  
+  
                      
   
