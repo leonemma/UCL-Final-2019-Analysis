@@ -58,7 +58,7 @@ df_event, df_related, df_freeze, df_tactics = parser.event(22912)
 
 
 ## Game-Analysis  
-  ###Match Score:
+  ### Match Score:
   ```python
   liverpool_goals = df_event[(df_event['outcome_name']=='Goal') & (df_event['team_name']=='Liverpool')].shape[0]
   tottenham_goals = df_event[(df_event['outcome_name']=='Goal') & (df_event['team_name']=='Tottenham Hotspur')].shape[0]
@@ -66,7 +66,7 @@ df_event, df_related, df_freeze, df_tactics = parser.event(22912)
   ```
   Liverpool 2:0 Tottenham Hotspurs
 
-  ###Lineups
+  ### Lineups
   
   The following visualization presents the lineups for both teams accompanied by individual heatmaps showcasing the on-field activity of each starting player. A heatmap serves as a graphical representation of a player's actions throughout the game, depicting their movements, involvement in ball-related activities, and positional coverage on the field. This visualization offers valuable insights into player performance and strategic contributions during the match
 
@@ -75,7 +75,7 @@ df_event, df_related, df_freeze, df_tactics = parser.event(22912)
 
 
 
-  ###Expected Goals:
+  ### Expected Goals:
   
   Expected Goals (xG) in football quantify the quality of scoring opportunities, offering deeper insights beyond traditional statistics like goals scored. By assessing the likelihood of 
   scoring based on various factors, xG provides a more comprehensive evaluation of team performance and strategy.  
@@ -89,12 +89,12 @@ df_event, df_related, df_freeze, df_tactics = parser.event(22912)
   ![xG_sum](/plots/xG_sum_snap.PNG)
 
 
-  ###Total Shots:
+  ### Total Shots:
   The following visualization shows the total shots of each team including the shots that was on target.
 
   ![total_shots](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/total_shots.png)
 
-  ###Total Passes/Accuracy(%)
+  ### Total Passes/Accuracy(%)
   Tottenham's passing was stronger, making more passes overall and significantly greater passing accuracy (79.3%) compared to Liverpool (62.0%), showcasing their control and precision in possession during the match.
 
   ![total_passes](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/total_passes.png)
