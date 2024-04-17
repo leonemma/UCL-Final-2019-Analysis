@@ -66,6 +66,15 @@ df_event, df_related, df_freeze, df_tactics = parser.event(22912)
   ```
   Liverpool 2:0 Tottenham Hotspurs
 
+- __Lineups__
+  
+  The following visualization presents the lineups for both teams accompanied by individual heatmaps showcasing the on-field activity of each starting player. A heatmap serves as a graphical representation of a player's actions throughout the game, depicting their movements, involvement in ball-related activities, and positional coverage on the field. This visualization offers valuable insights into player performance and strategic contributions during the match
+
+  
+  ![lineups_plot](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/lineups_heatmaps.png)
+
+
+
 - __Expected Goals__:
   
 Expected Goals (xG) in football quantify the quality of scoring opportunities, offering deeper insights beyond traditional statistics like goals scored. By assessing the likelihood of scoring based on various factors, xG provides a more comprehensive evaluation of team performance and strategy.  
