@@ -58,47 +58,49 @@ df_event, df_related, df_freeze, df_tactics = parser.event(22912)
 
 
 ## Game-Analysis  
-  ### Match Score:
-  ```python
-  liverpool_goals = df_event[(df_event['outcome_name']=='Goal') & (df_event['team_name']=='Liverpool')].shape[0]
-  tottenham_goals = df_event[(df_event['outcome_name']=='Goal') & (df_event['team_name']=='Tottenham Hotspur')].shape[0]
-  print(f'Liverpool {liverpool_goals}:{tottenham_goals} Tottenham Hotspurs')
-  ```
-  Liverpool 2:0 Tottenham Hotspurs
+  ### Match Score:  
+  In the UEFA Champions League final of 2019, Liverpool achieved a victory against Tottenham Hotspur with a score of 2-0. The match showcased Liverpool's passion and clinical finishing, securing their sixth European title. 
 
   ### Lineups
   
-  The following visualization presents the lineups for both teams accompanied by individual heatmaps showcasing the on-field activity of each starting player. A heatmap serves as a graphical representation of a player's actions throughout the game, depicting their movements, involvement in ball-related activities, and positional coverage on the field. This visualization offers valuable insights into player performance and strategic contributions during the match
+  The following visualization presents the lineups for both teams accompanied by individual heatmaps showcasing the on-field activity of each starting player. A heatmap serves as a graphical representation of a player's actions throughout the game, involvement in ball-related activities, and positional coverage on the field. This visualization offers valuable insights into each player's performance and tactical contributions during the match.
 
   
-  ![lineups_plot](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/lineups_heatmaps.png)
+   ![lineups_plot](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/lineups_heatmaps.png)
 
 
 
   ### Expected Goals:
   
-  Expected Goals (xG) in football quantify the quality of scoring opportunities, offering deeper insights beyond traditional statistics like goals scored. By assessing the likelihood of 
-  scoring based on various factors, xG provides a more comprehensive evaluation of team performance and strategy.  
-
-  ![xG](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/xG.png)
-
+  Expected Goals (xG) in football evaluates the quality of scoring opportunities, offering deeper insights beyond traditional statistics like goals scored, by assessing the likelihood of scoring based on various factors.  
+  
+   ![xG](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/xG.png)
 
   By visualizing the xG values on a minute-by-minute basis, we can analyze the scoring opportunities created by both teams and track the momentum shifts during the match. Here's a line 
   chart by use of Power BI showcasing the progression of scoring opportunities, measured by minute, for both teams during the game.  
  
-  ![xG_sum](/plots/xG_sum_snap.PNG)
+   ![xG_sum](/plots/xG_sum_snap.PNG)
 
 
   ### Total Shots:
   The following visualization shows the total shots of each team including the shots that was on target.
 
-  ![total_shots](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/total_shots.png)
+   ![total_shots](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/total_shots.png)
 
   ### Total Passes/Accuracy(%)
   Tottenham's passing was stronger, making more passes overall and significantly greater passing accuracy (79.3%) compared to Liverpool (62.0%), showcasing their control and precision in possession during the match.
 
-  ![total_passes](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/total_passes.png)
-  
+   ![total_passes](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/total_passes.png)
 
+  ### Total Dribbles
+  The following plot focuses on the dribbles each team attempted during the game, including the successful attempts.  
 
+   ![total_dribbles](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/total_dribbles.png)
+
+  Liverpool completed 2 successful dribbles out of 6 attempts, while Tottenham achieved 4 successful dribbles out of 9 attempts, achieving a higher success rate during the match.
+
+  ### Aerials Won  
+  The next plot focuses on the aerials attempts during the game.  
+                     ![aerial_won](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/aerials_won.png)  
+                     
   
