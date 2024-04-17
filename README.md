@@ -107,10 +107,15 @@ df_event, df_related, df_freeze, df_tactics = parser.event(22912)
 
   Liverpool outmatched Tottenham in successful aerial attempts, winning 18 of them.  
 
-  ### Shots Map  
-  In the following shot map we can see the locations of shots taken by Liverpool's players during the match. The bigger the marker is the greater the expected goal of the corresponding shot. It's obvious that the biggest chance for Liverpool based on the xG was the penalty that had at the beginning of the game (1'), when Salah scored.  
+  ### Shots Map   
+  - Liverpool
+  In the following shot maps we can see the locations of shots taken by Liverpool's and Tottenham's players during the match. The bigger the marker is the greater the expected goal of the corresponding shot. It's obvious that the biggest chance for Liverpool based on the xG was the penalty that had at the beginning of the game (1'), when Salah scored.  
 
-  ![shot_map_liverpool](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/plot4.png)  
+  ![shot_map_liverpool](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/liverpool_shot_map.png)  
+
+  - Tottenham
+
+  ![shot_map_tottenham](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/tottenham_shot_map.png)
   
   
                      
