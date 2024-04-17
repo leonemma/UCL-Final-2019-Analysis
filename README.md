@@ -80,7 +80,7 @@ df_event, df_related, df_freeze, df_tactics = parser.event(22912)
   Expected Goals (xG) in football quantify the quality of scoring opportunities, offering deeper insights beyond traditional statistics like goals scored. By assessing the likelihood of 
   scoring based on various factors, xG provides a more comprehensive evaluation of team performance and strategy.  
 
-  ![xG]('https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/xG.png')
+  ![xG](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/xG.png)
 
 
   By visualizing the xG values on a minute-by-minute basis, we can analyze the scoring opportunities created by both teams and track the momentum shifts during the match. Here's a line 
@@ -92,12 +92,12 @@ df_event, df_related, df_freeze, df_tactics = parser.event(22912)
 - __Total Shots__:
   The following visualization shows the total shots of each team including the shots that was on target.
 
-  ![total_shots]('https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/total_shots.png')
+  ![total_shots](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/total_shots.png)
 
 - __Total Passes/Accuracy(%)
   Tottenham's passing was stronger, making more passes overall and significantly greater passing accuracy (79.3%) compared to Liverpool (62.0%), showcasing their control and precision in possession during the match.
 
-  ![total_passes]('https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/total_passes.png')
+  ![total_passes](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/total_passes.png)
   
 
 
