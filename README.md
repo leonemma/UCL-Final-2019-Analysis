@@ -88,7 +88,7 @@ df_event, df_related, df_freeze, df_tactics = parser.event(22912)
 
 ![Liverpool_Pass_Netw](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/Liverpool_Passing_Network.png)    
 
-In a passing network, the thickness of a line between two players represents the frequency or volume of passes exchanged between them. When the line between two players, such as left-backs (LB) with LW as above, is thick, it signifies a high number of passes between them. This indicates that those players are heavily involved in passing exchanges, often playing a significant role in the team's build-up play or in circulating possession from deep positions.  
+In a passing network, the thickness of a line between two players represents the frequency or volume of passes exchanged between them. When the line between two players, such as left-back (LB) with left-winger (LW) as above, is thick, it signifies a high number of passes between them. This indicates that those players are heavily involved in passing exchanges, often playing a significant role in the team's build-up play or in circulating possession from deep positions.  
 
 ![Tottenham_Pass_Netw](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/Tottenham%20PassNetw.png)  
 
@@ -130,9 +130,9 @@ In a passing network, the thickness of a line between two players represents the
 
   ![dashboard](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/Dashboard%201.png)    
   
-  - We observe that Salah has the most scoring attempts (6 shots) during the game and the most ball receipts (52) too. 
-  - Robertson is the player with the most passes (54) and carries (29) from Liverpool. This is confirmed by the passing network that we created before where Robertson and Salah were heavily involved in passing exchanges.
-  - Matip and Vertonghen had the most aerial duels won during the game.
+  - We observe that Salah had the most scoring attempts (6 shots) during the game and the most ball receipts (52) too. 
+  - Robertson is the player with the most passes (54) and carries (29) for Liverpool. This is confirmed by the passing network that we created before where Robertson and Salah were heavily involved in passing exchanges.
+  - Matip and Vertonghen won the most aerial duels during the game.
   - Finally, we confirm the Tottenham's possession dominance, since the defenders dominated in passing, ball receipts and carries. 
     
 
