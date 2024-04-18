@@ -74,12 +74,12 @@ df_event, df_related, df_freeze, df_tactics = parser.event(22912)
   
   Expected Goals (xG) in football evaluates the quality of scoring opportunities, offering deeper insights beyond traditional statistics like goals scored, by assessing the likelihood of scoring based on various factors.  
   
-   ![xG](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/xG.png)
+   ![xG](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/sum_xG.png)
 
   By visualizing the xG values on a minute-by-minute basis, we can analyze the scoring opportunities created by both teams and track the __momentum__ shifts during the match. Here's a line 
   chart by use of Power BI showcasing the progression of scoring opportunities, measured by minute, for both teams during the game.  
  
-   ![xG_sum](/plots/xG_sum_snap.PNG)
+   ![xG_sum](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/sum_xg_final.PNG)
 
 
   ### Total Shots:
@@ -95,7 +95,7 @@ df_event, df_related, df_freeze, df_tactics = parser.event(22912)
   ### Total Dribbles
   The following plot focuses on the dribbles each team attempted during the game, including the successful attempts.  
 
-   ![total_dribbles](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/total_dribbles.png)
+   ![total_dribbles](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/total_dribbles2.png)
 
   Liverpool completed 2 successful dribbles out of 6 attempts, while Tottenham achieved 4 successful dribbles out of 9 attempts, achieving a higher success rate during the match.
 
@@ -103,7 +103,7 @@ df_event, df_related, df_freeze, df_tactics = parser.event(22912)
   
   The next plot focuses on the aerials attempts during the game.  
   
-  ![aerial_won](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/aerial_corrected.png)  
+  ![aerial_won](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/aerial_wons.png)  
 
   Liverpool outmatched Tottenham in successful aerial attempts, winning 18 of them.  
 
