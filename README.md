@@ -79,14 +79,18 @@ df_event, df_related, df_freeze, df_tactics = parser.event(22912)
   By visualizing the xG values on a minute-by-minute basis, we can analyze the scoring opportunities created by both teams and track the __momentum__ shifts during the match. Here's a line 
   chart by use of Power BI showcasing the progression of scoring opportunities, measured by minute, for both teams during the game.  
  
-   ![xG_sum](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/sum_xg_final.PNG)
+   ![xG_sum](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/sum_xg_final.PNG)  
+
+   It's important to note that Liverpool scored at the beginning of the game (1') with a penalty. That's why the xG at the start of the game is at 0.78 xG.
 
   ### Passing Networks  
   A passing network in football refers to a visual representation or analysis of the passing interactions between players on a team during a match. Passing networks can provide insights into the patterns of play, teamwork dynamics, and strategies employed by a team during a match. They can reveal which players are involved in the build-up of play, how possession is circulated, and the effectiveness of passing connections between different areas of the pitch.   
 
-![Liverpool_Pass_Netw](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/Liverpool_Passing_Network.png)  
+![Liverpool_Pass_Netw](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/Liverpool_Passing_Network.png)    
 
-![Tottenham_Pass_Netw](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/Tottenham%20PassNetw.png)
+In a passing network, the thickness of a line between two players represents the frequency or volume of passes exchanged between them. When the line between two players, such as left-backs (LB) with LW as above, is thick, it signifies a high number of passes between them. This indicates that those players are heavily involved in passing exchanges, often playing a significant role in the team's build-up play or in circulating possession from deep positions.  
+
+![Tottenham_Pass_Netw](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/Tottenham%20PassNetw.png)  
 
   ### Total Shots:
   The following visualization shows the total shots of each team including the shots that was on target.
@@ -124,8 +128,13 @@ df_event, df_related, df_freeze, df_tactics = parser.event(22912)
 
   Next, we've developed a Tableau dashboard showcasing the distribution of diverse football metrics attributed to players. These include statistics like shots taken, aerial duels won, and possession indicators such as passes, ball receipts, and carries. In addition, the table in the top right corner displays players' shots, detailing each shot's outcome and its corresponding expected goals (xG) value.  
 
-  ![dashboard](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/Dashboard%201.png)  
+  ![dashboard](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/Dashboard%201.png)    
   
+  - We observe that Salah has the most scoring attempts (6 shots) during the game and the most ball receipts (52) too. 
+  - Robertson is the player with the most passes (54) and carries (29) from Liverpool. This is confirmed by the passing network that we created before where Robertson and Salah were heavily involved in passing exchanges.
+  - Matip and Vertonghen had the most aerial duels won during the game.
+  - Finally, we confirm the Tottenham's possession dominance, since the defenders dominated in passing, ball receipts and carries. 
+    
 
   
                      
