@@ -130,8 +130,7 @@ In a passing network, the thickness of a line between two players represents the
 
   ![dashboard](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/Dashboard%201.png)    
   
-  - We observe that Salah had the most scoring attempts (6 shots) during the game and the most ball receipts (52) too. 
-  - Robertson is the player with the most passes (54) and carries (29) for Liverpool. This is confirmed by the passing network that we created before where Robertson and Salah were heavily involved in passing exchanges.
+  - We observe that Salah had the most scoring attempts (6 shots) during the game and the most ball receipts (52) too. Sadio Mane is second in the ball receipts with 45 for Liverpool.Robertson is the player with the most passes (54) and carries (29) for Liverpool with Trent Alexanter Arnold in the second place with 47, highlighting Liverpool's strategic emphasis on using their wide players to create scoring opportunities.
   - Matip and Vertonghen won the most aerial duels during the game.
   - Finally, we confirm the Tottenham's possession dominance, since the defenders dominated in passing, ball receipts and carries. 
     
