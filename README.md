@@ -17,13 +17,13 @@ Dive into match statistics, player performances and tactical insights
 Welcome to the UEFA Champions League Final 2019 Data Analysis project! In this analysis, we dive deep into an epic battle between Liverpool and Tottenham Hotspur, exploring key statistics, tactical insights and player performances, that shaped the outcome of one of football's most prestigious matches.
 
 Key Findings:
-- Team Statistics: We examined various team statistics, including total shots, sum of expected goals (xG), and aerial duels won, providing a comprehensive overview of each team's performance on the pitch.
+- Team Statistics: We examined various team statistics, including shots, expected goals (xG), passes and other key performance indicators, providing a comprehensive overview of each team's performance on the pitch.
 
 - Tactical Analysis: Our analysis includes detailed player statistics such as shot distribution, passing networks, and pressure heatmaps, offering insights into individual player contributions and playing styles.
 
-- Visualizations: We utilized the mplsoccer library to create visualizations such as shot maps and passing networks, providing intuitive representations of match dynamics and player interactions.
+- Visualizations: We utilized the mplsoccer library to create visualizations such as shot maps and passing networks and heatmaps, providing intuitive representations of match dynamics and player interactions.
 
-- Dashboard: Additionally, we developed an interactive dashboard using Power BI, offering detailed statistics and insights into the performance of each player during the UEFA Champions League Final.
+- Dashboard: Additionally, we developed an  dashboard using Tableau, offering detailed statistics and insights into the performance of each player during the UEFA Champions League Final.
 
 ## Installation
 
@@ -81,6 +81,12 @@ df_event, df_related, df_freeze, df_tactics = parser.event(22912)
  
    ![xG_sum](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/sum_xg_final.PNG)
 
+  ### Passing Networks  
+  A passing network in football refers to a visual representation or analysis of the passing interactions between players on a team during a match. Passing networks can provide insights into the patterns of play, teamwork dynamics, and strategies employed by a team during a match. They can reveal which players are involved in the build-up of play, how possession is circulated, and the effectiveness of passing connections between different areas of the pitch.   
+
+![Liverpool_Pass_Netw](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/Liverpool%20PassNetw.png)  
+
+![Tottenham_Pass_Netw](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/Tottenham%20PassNetw.png)
 
   ### Total Shots:
   The following visualization shows the total shots of each team including the shots that was on target.
