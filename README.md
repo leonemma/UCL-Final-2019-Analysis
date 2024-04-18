@@ -58,7 +58,7 @@ df_event, df_related, df_freeze, df_tactics = parser.event(22912)
 
 
 ## Game-Analysis  
-  ### Match Score:  
+  ### Match Score
   In the UEFA Champions League final of 2019, Liverpool achieved a victory against Tottenham Hotspur with a score of __2-0__. The match showcased Liverpool's passion and clinical finishing, securing their sixth European title. 
 
   ### Lineups
@@ -70,7 +70,7 @@ df_event, df_related, df_freeze, df_tactics = parser.event(22912)
 
 
 
-  ### Expected Goals:
+  ### Expected Goals
   
   Expected Goals (xG) in football evaluates the quality of scoring opportunities, offering deeper insights beyond traditional statistics like goals scored, by assessing the likelihood of scoring based on various factors.  
   
@@ -113,18 +113,6 @@ df_event, df_related, df_freeze, df_tactics = parser.event(22912)
 
   ![shot_maps](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/shots_maps_final_see.png)  
 
-  ### Passing Network
-
-  
-<!DOCTYPE html>
-<html>
-<head>
-    <title>My Tableau Dashboard</title>
-</head>
-<body>
-    <iframe src="https://public.tableau.com/app/profile/leonidas.emmmanouilidis/viz/UCLFinal2019_17133834605920/Dashboard1?publish=yes" width="800" height="600"></iframe>
-</body>
-</html>
 
   
                      
