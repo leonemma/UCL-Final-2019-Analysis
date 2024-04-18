@@ -116,7 +116,15 @@ df_event, df_related, df_freeze, df_tactics = parser.event(22912)
   ### Passing Network
 
   
-  <iframe src="https://public.tableau.com/app/profile/leonidas.emmmanouilidis/viz/UCLFinal2019_17133834605920/Dashboard1?publish=yes" width="800" height="600"></iframe>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Tableau Dashboard</title>
+</head>
+<body>
+    <iframe src="https://public.tableau.com/app/profile/leonidas.emmmanouilidis/viz/UCLFinal2019_17133834605920/Dashboard1?publish=yes" width="800" height="600"></iframe>
+</body>
+</html>
 
   
                      
