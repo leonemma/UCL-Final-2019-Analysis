@@ -44,6 +44,7 @@ Key Findings:
 4. Tableau Dashboard:
  - Utilized Tableau for insightful data visualization and analysis.
  - To access the Tableau dashboard, click [here](https://public.tableau.com/app/profile/leonidas.emmmanouilidis/viz/UCLFinal2019_17133834605920/Dashboard1)
+   
 ## Data   
 
 1.  The data for this analysis was obtained using the __mplsoccer__ library, which provides functionalities for accessing football match data. Here's a breakdown of the retrieval process:
@@ -84,8 +85,14 @@ df_event, df_related, df_freeze, df_tactics = parser.event(22912)
  
    ![xG_sum](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/sum_xg_final.PNG)  
 
-   It's important to note that Liverpool scored at the beginning of the game (1') with a penalty. That's why the xG at the start of the game is at 0.78 xG.
+   It's important to note that Liverpool scored at the beginning of the game (1') with a penalty. That's why the xG at the start of the game is at 0.78 xG.  
 
+  ### Possession  
+
+  The following plot showcase the possession distribution during the game. Overall, the possession distribution indicates that Tottenham had a significant advantage in having the ball, but the interpretation of the game should consider other factors such as scoring opportunities, defensive resilience, and the final result.  
+
+  ![Possession](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/Possession.png)
+  
   ### Passing Networks  
   A passing network in football refers to a visual representation or analysis of the passing interactions between players on a team during a match. Passing networks can provide insights into the patterns of play, teamwork dynamics, and strategies employed by a team during a match. They can reveal which players are involved in the build-up of play, how possession is circulated, and the effectiveness of passing connections between different areas of the pitch.   
 
