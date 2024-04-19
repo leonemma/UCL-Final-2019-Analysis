@@ -10,6 +10,7 @@ Dive into match statistics, player performances and tactical insights
 - [Introduction](#Introduction)
 - [Installation](#Installation)
 - [Data](#Data)
+- [Key Questions](#Key-Questions)
 - [Game Analysis](#Game-Analysis)
 
 ## Introduction
@@ -24,7 +25,7 @@ Key Findings:
 - Visualizations: We utilized the mplsoccer library to create visualizations such as shot maps and passing networks and heatmaps, providing intuitive representations of match dynamics and player interactions.
 
 - Dashboard: Additionally, we developed an  dashboard using Tableau, offering detailed statistics and insights into the performance of each player during the UEFA Champions League Final.
-
+  
 ## Installation
 
 1. Python: Set up a Python environment suitable for running the analysis scripts or Jupyter notebooks. You may use Anaconda or create a virtual environment.
@@ -59,6 +60,16 @@ df_lineup = parser.lineup(22912)
 df_event, df_related, df_freeze, df_tactics = parser.event(22912)
 ```
 3.  Dataframe Selection: Among the retrieved dataframes, we primarily utilized df_event for our analysis, as it contained the relevant match event data.
+
+## Key-Questions  
+
+1. How did the expected goals (xG) change throughout the match, and what moments influenced these changes?
+2. Which team dominated possession, and how did this influence the outcome of the game?
+3. Which players were most involved in the passing buildup, and how effective were these connections?
+4. Where did each team apply the most pressure on their opponents, and how effective was this in disrupting play?
+5. Which team had better passing accuracy, and how did this impact their ability to control the game?
+6. Which passing combinations were most frequently used, and were they successful in advancing the ball?
+7. Which players had the most significant impact on the game based on the overall contribution metrics?
 
 
 ## Game-Analysis  
@@ -142,15 +153,7 @@ In a passing network, the thickness of a line between two players represents the
 
    ![total_dribbles](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/total_dribbles2.png)
 
-  Liverpool completed 2 successful dribbles out of 6 attempts, while Tottenham achieved 4 successful dribbles out of 9 attempts, achieving a higher success rate during the match.
-
-  ### Aerials Won  
-  
-  The next plot focuses on the aerials attempts during the game.  
-  
-  ![aerial_won](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/aerial_wons.png)  
-
-  Liverpool outmatched Tottenham in successful aerial attempts, winning 18 of them.  
+  Liverpool completed 2 successful dribbles out of 6 attempts, while Tottenham achieved 4 successful dribbles out of 9 attempts, achieving a higher success rate during the match. 
 
   ### Shots Map   
   
