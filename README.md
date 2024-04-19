@@ -125,7 +125,7 @@ In a passing network, the thickness of a line between two players represents the
  ![Liverpool_pass_arrow](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/liverpool_arrow.png)   
 
   
- On the other hand, it's obvious that Tottenham had way more passes escpecially in their own half. However, the successful passes in the final third of the court is significantly decreased, which is showcasing the solid Liverpool's defense.
+ - On the other hand, it's obvious that Tottenham had way more passes escpecially in their own half. However, the successful passes in the final third of the court is significantly decreased, which is showcasing the solid Liverpool's defense.
 
  ![Tottenham_pass_arrow](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/Tottenham_Arrows.png)  
 
