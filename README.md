@@ -114,7 +114,15 @@ In a passing network, the thickness of a line between two players represents the
   ### Total Passes/Accuracy(%)
   Tottenham was more dominant in ball traffic, making more passes overall and significantly greater passing accuracy (79.3%) compared to Liverpool (62.0%), showcasing their control and precision in possession during the match.
 
-   ![total_passes](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/total_passes.png)
+   ![total_passes](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/total_passes.png)  
+
+ #### Passing Arrows Map  
+ Passing arrows maps are powerful visual tools that help teams and analysts evaluate passing dynamics, identify strengths and weaknesses, and make informed decisions to optimize their 
+ tactical strategies.  
+
+ ![Liverpool_pass_arrow](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/liverpool_arrow.png)  
+
+ ![Tottenham_pass_arrow](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/tottenham_arrows.png)
 
   ### Total Dribbles
   The following plot focuses on the dribbles each team attempted during the game, including the successful attempts.  
