@@ -12,7 +12,14 @@ Dive into match statistics, player performances and tactical insights
 - [Data](#Data)
 - [Key Questions](#Key-Questions)
 - [Game Analysis](#Game-Analysis)
-
+  - [Lineups-Heatmaps](#Lineups)
+  - [Expected Goals](#Expected-Goals)
+  - [Possession](#Possession)
+  - [Passing Networks](#Passing-Networks)
+  - [Pressure Heatmaps](#Pressure-Heatmaps)
+  - [Total Shots, Passes & Dribbles](#Shots-Passes-Dribbles)
+  - [Dashboard](#Players's-Contribution)
+    
 ## Introduction
 
 Welcome to the UEFA Champions League Final 2019 Data Analysis project! In this analysis, we dive deep into an epic battle between Liverpool and Tottenham Hotspur, exploring key statistics, tactical insights and player performances, that shaped the outcome of one of football's most prestigious matches.
@@ -85,7 +92,7 @@ df_event, df_related, df_freeze, df_tactics = parser.event(22912)
 
 
 
-  ### Expected Goals
+  ### Expected-Goals
   
   Expected Goals (xG) in football evaluates the quality of scoring opportunities, offering deeper insights beyond traditional statistics like goals scored, by assessing the likelihood of scoring based on various factors.  
   
@@ -104,7 +111,7 @@ df_event, df_related, df_freeze, df_tactics = parser.event(22912)
 
   ![Possession](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/Possession.png)
   
-  ### Passing Networks  
+  ### Passing-Networks  
   A passing network in football refers to a visual representation or analysis of the passing interactions between players on a team during a match. Passing networks can provide insights into the patterns of play, teamwork dynamics, and strategies employed by a team during a match. They can reveal which players are involved in the build-up of play, how possession is circulated, and the effectiveness of passing connections between different areas of the pitch.   
 
 ![Liverpool_Pass_Netw](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/Liverpool_Passing_Network.png)    
@@ -113,7 +120,7 @@ In a passing network, the thickness of a line between two players represents the
 
 ![Tottenham_Pass_Netw](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/Tottenham%20PassNetw.png)  
 
-  ### Pressure Heatmaps  
+  ### Pressure-Heatmaps  
   A pressure heatmap in football, also known as a pressing heatmap or pressure map, visualizes the intensity and location of defensive pressure exerted by a team on their opponents during a match. It provides insights into how effectively a team applies pressure on their opponents to disrupt their play, regain possession, or force them into making mistakes.  
 
   - Liverpool's heatmap highlights the high pressing strategy of the team. Liverpool aimed to win back possession of the ball quickly by putting intense pressure on the opponent's players as soon as they enter the attacking half.
@@ -155,6 +162,7 @@ In a passing network, the thickness of a line between two players represents the
 
   Liverpool completed 2 successful dribbles out of 6 attempts, while Tottenham achieved 4 successful dribbles out of 9 attempts, achieving a higher success rate during the match. 
 
+  ## Shots-Passes-Dribbles
   ### Shots Map   
   
   In the following shot maps we can see the locations of shots taken by Liverpool's and Tottenham's players during the match. The bigger the marker is the greater the expected goal of the corresponding shot. It's obvious that the biggest chance for Liverpool based on the xG was the penalty that had at the beginning of the game (1'), when Salah scored.  
@@ -162,7 +170,7 @@ In a passing network, the thickness of a line between two players represents the
   ![shot_maps](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/shots_maps_final_see.png)  
 
 
-  ### Players's Contribution  
+  ### Players's-Contribution  
 
   Next, we've developed a Tableau dashboard showcasing the distribution of diverse football metrics attributed to players. These include statistics like shots taken, aerial duels won, and possession indicators such as passes, ball receipts, and carries. In addition, the table in the top right corner displays players' shots, detailing each shot's outcome and its corresponding expected goals (xG) value.  
 
