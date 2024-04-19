@@ -118,11 +118,17 @@ In a passing network, the thickness of a line between two players represents the
 
  #### Passing Arrows Map  
  Passing arrows maps are powerful visual tools that help teams and analysts evaluate passing dynamics, identify strengths and weaknesses, and make informed decisions to optimize their 
- tactical strategies.  
+ tactical strategies.    
 
- ![Liverpool_pass_arrow](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/liverpool_arrow.png)  
+ - The passing arrows map below highlights Liverpool's desire to attack and build up from the left side, utilizing Robertson and Mane. Successful passes are more frequent from this area, indicating a focused effort to exploit the left flank.
 
- ![Tottenham_pass_arrow](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/tottenham_arrows.png)
+ ![Liverpool_pass_arrow](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/liverpool_arrow.png)   
+
+  
+ On the other hand, it's obvious that Tottenham had way more passes escpecially in their own half. However, the successful passes in the final third of the court is significantly decreased, which is showcasing the solid Liverpool's defense.
+
+ ![Tottenham_pass_arrow](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/Tottenham_Arrows.png)  
+
 
   ### Total Dribbles
   The following plot focuses on the dribbles each team attempted during the game, including the successful attempts.  
