@@ -99,9 +99,10 @@ In a passing network, the thickness of a line between two players represents the
   A pressure heatmap in football, also known as a pressing heatmap or pressure map, visualizes the intensity and location of defensive pressure exerted by a team on their opponents during a match. It provides insights into how effectively a team applies pressure on their opponents to disrupt their play, regain possession, or force them into making mistakes.  
 
   - Liverpool's heatmap highlights the high pressing strategy of the team. Liverpool aimed to win back possession of the ball quickly by putting intense pressure on the opponent's players as soon as they enter the attacking half.
+   
  ![Liverpool_Heatmap](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/final_liverpool.png)
 
- - On the other hand, since Tottenhma had the possession of the ball most of the time, the heatmaps don't show the defensive intensity and pressure that Liverpool had during the game. However, it's obvious that Tottenham chose to press Liverpool's left back (Robertson) and right winger (Salah) who had a solid game, as we will se later.
+ - On the other hand, since Tottenham had the possession of the ball most of the time, the heatmaps don't show the defensive intensity and pressure that Liverpool had during the game. However, it's obvious that Tottenham chose to press Liverpool's left back (Robertson) and right winger (Salah) who had a solid game, as we will se later.
   
  ![Tottenham_Heatmap](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/final_tottenham.png)
 
