@@ -131,6 +131,7 @@ In a passing network, the thickness of a line between two players represents the
   
  ![Tottenham_Heatmap](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/final_tottenham.png)
 
+  ## Shots-Passes-Dribbles
   ### Total Shots:
   The following visualization shows the total shots of each team including the shots that was on target.
 
@@ -162,7 +163,6 @@ In a passing network, the thickness of a line between two players represents the
 
   Liverpool completed 2 successful dribbles out of 6 attempts, while Tottenham achieved 4 successful dribbles out of 9 attempts, achieving a higher success rate during the match. 
 
-  ## Shots-Passes-Dribbles
   ### Shots Map   
   
   In the following shot maps we can see the locations of shots taken by Liverpool's and Tottenham's players during the match. The bigger the marker is the greater the expected goal of the corresponding shot. It's obvious that the biggest chance for Liverpool based on the xG was the penalty that had at the beginning of the game (1'), when Salah scored.  
