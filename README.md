@@ -134,8 +134,6 @@ In a passing network, the thickness of a line between two players represents the
 
    ![total_shots](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/total_shots.png)
 
-  ### Total Passes/Accuracy(%)
-  Tottenham was more dominant in ball traffic, making more passes overall and significantly greater passing accuracy (79.3%) compared to Liverpool (62.0%), showcasing their control and precision in possession during the match.  
 
   ### Shots Map   
   
@@ -143,7 +141,10 @@ In a passing network, the thickness of a line between two players represents the
 
   ![shot_maps](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/shots_maps_final_see.png)    
 
-  
+
+  ### Total Passes/Accuracy(%)
+  Tottenham was more dominant in ball traffic, making more passes overall and significantly greater passing accuracy (79.3%) compared to Liverpool (62.0%), showcasing their control and precision in possession during the match.  
+
 
    ![total_passes](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/total_passes.png)  
 
