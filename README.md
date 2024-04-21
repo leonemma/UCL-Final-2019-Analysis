@@ -79,11 +79,11 @@ df_event, df_related, df_freeze, df_tactics = parser.event(22912)
 
 ## Game-Analysis  
   ### Match Score
-  In the UEFA Champions League final of 2019, Liverpool achieved a victory against Tottenham Hotspur with a score of __2-0__. The match showcased Liverpool's passion and clinical finishing, securing their sixth European title. 
+  In the UEFA Champions League final of 2019, Liverpool achieved a victory against Tottenham Hotspur with a score of __2-0__. The match showcased Liverpool's effective defense and  finishing in the attacking field, securing their sixth European title. 
 
   ### Lineups
   
-  The following visualization presents the lineups for both teams accompanied by individual heatmaps showcasing the on-field activity of each starting player. A heatmap serves as a graphical representation of a player's actions throughout the game, involvement in ball-related activities on the field. This visualization offers valuable insights into each player's performance and tactical contributions during the match.
+  The following visualization presents the lineups for both teams combined by individual heatmaps showcasing the on-field activity of each starting player. A heatmap serves as a graphical representation of a player's involvement and actions in ball-related activities on the field, throughout the game. This visualization offers valuable insights into each player's performance and tactical contributions during the match.
 
   
    ![lineups_plot](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/lineups_heatmaps.png)
@@ -96,48 +96,51 @@ df_event, df_related, df_freeze, df_tactics = parser.event(22912)
   
    ![xG](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/sum_xG.png)
 
-  By visualizing the xG values on a minute-by-minute basis, we can analyze the scoring opportunities created by both teams and track the __momentum__ shifts during the match. Here's a line chart by use of Power BI showcasing the progression of scoring opportunities, measured by minute, for both teams during the game.  
+  By visualizing the xG values on a minute-by-minute basis, we can analyze the scoring opportunities created by both teams and track the __momentum__ shifts during the match. Here's a line chart by use of Power BI showcasing the progression of scoring opportunities for both teams during the game.  
  
    ![xG_sum](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/sum_xg_final.PNG)  
 
-   It's important to note that Liverpool scored at the beginning of the game (1') with a penalty. That's why the xG at the start of the game is at 0.78 xG. The line chart above showcases the neither team had a scoring chance that was greater than 0.2 xG after the Liverpool's penalty at the beginning of the game. 
+   It's important to note that Liverpool scored at the beginning of the game (1') with a penalty. That's why the xG at the start of the game is at 0.78 xG. The line chart above showcases that neither team had a scoring chance that was greater than 0.2 xG after the Liverpool's penalty at the beginning of the game. 
 
   ### Possession  
 
-  The following plot showcase the possession distribution during the game. Overall, the possession distribution indicates that Tottenham had an advantage in having the ball, but the interpretation of the game should consider other factors such as scoring opportunities, defensive resilience, and the final result.  
+  The following pie plot showcase the possession distribution during the game. Overall, the possession distribution indicates that Tottenham had an advantage in having the ball. However, it's necessary to take into account more metrics in order to interpretate the game result.   
 
   ![Possession](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/Possession.png)
   
   ### Passing-Networks  
-  A passing network in football refers to a visual representation or analysis of the passing interactions between players on a team during a match. Passing networks can provide insights into the patterns of play, teamwork dynamics, and strategies employed by a team during a match. They can reveal which players are involved in the build-up of play, how possession is circulated, and the effectiveness of passing connections between different areas of the pitch.   
+  A passing network in football refers to a visual representation or analysis of the passing interactions between players on a team during a match. Passing networks can provide insights into the patterns of play, teamwork dynamics, and strategies employed by a team during a match. They can reveal which players are involved in the build-up of play and the effectiveness of passing connections between different areas of the pitch.   
 
 ![Liverpool_Pass_Netw](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/Liverpool_Passing_Network.png)    
 
-In a passing network, the thickness of a line between two players represents the frequency or volume of passes exchanged between them. When the line between two players, such as the left-back (LB) and the left-winger (LW) as shown above, is thick, it signifies a high number of passes between them. This indicates that those players are heavily involved in passing exchanges, often playing a significant role in the team's build-up play or in circulating possession from deep positions. Additionally, the size of a player's node corresponds to the number of touches they had on the ball and reflects their importance in their team's build-up play.
+In a passing network, the thickness of a line between two players represents the frequency or volume of passes exchanged between them. When the line between two players, such as the left-back (LB) and the left-winger (LW) as shown above, is thick, it signifies a high number of passes between them. This indicates that those players are heavily involved in passing exchanges, often playing a significant role in the team's build-up play or in circulating possession from deep positions. Additionally, the size of a player's node corresponds to the frequency of ball touches he had highligting his involvement in the team's build-up play.
 
 ![Tottenham_Pass_Netw](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/Tottenham%20PassNetw.png)  
 
   ### Pressure-Heatmaps  
   A pressure heatmap in football visualizes the intensity and location of defensive pressure exerted by a team on their opponents during a match. It provides insights into how effectively a team applies pressure on their opponents to disrupt their play, regain possession, or force them into making mistakes.  
 
-  - Liverpool's heatmap highlights the high pressing strategy of the team. Liverpool aimed to win back possession of the ball quickly by putting intense pressure on the opponent's players as soon as they enter the attacking half.
+  - Liverpool's heatmap highlights the high pressing strategy of the team. Liverpool aimed to win back possession of the ball quickly by putting intense pressure on the opponent's players just before Tottenham enter the attacking half.
    
  ![Liverpool_Heatmap](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/final_liverpool.png)
 
- - On the other hand, since Tottenham had the possession of the ball most of the time the defensive intensity and pressure that Spurs had during the game was poor. However, it's obvious that Tottenham chose to pay attention to Liverpool's left back (Robertson) and right winger (Salah) who had a solid game, as we will see later.
+ - On the other hand, it's obvious that Tottenham chose to pay attention to Liverpool's left back (Robertson) and right winger (Salah) , who had a solid game as we will see later, by putting pressure on them.
   
  ![Tottenham_Heatmap](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/final_tottenham.png)
 
   ## Shots-Passes-Dribbles 
   ### Total Shots:
-  The following visualization shows the total shots of each team including the shots that was on target.
+  The following donut charts present the total shots of each team including the shots that was on target.
 
-   ![total_shots](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/total_shots.png)
+   ![total_shots](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/total_shots.png)  
+
+  - Liverpool had 3/14 shots on target, but still achieved two goals.
+  - Tottenham had way better aim, succeeding 8 shots on target out of 16 total shots. However, Spurs were unable to score a goal.
 
 
-  ### Shots Map   
+  #### Shots Map   
   
-  In the following shot maps we can see the locations of shots taken by Liverpool's and Tottenham's players during the match. The bigger the marker is the greater the expected goal of the corresponding shot. It's obvious that the biggest chance for Liverpool based on the xG was the penalty that had at the beginning of the game (1'), when Salah scored (0.78 xG).  
+  In the following shot maps we can see the locations of shots taken by Liverpool's and Tottenham's players during the match. The bigger the marker is the greater the expected goal of the corresponding shot. It's obvious that the biggest chance for Liverpool based on the xG was the penalty that had at the beginning of the game (1'), when Salah scored (0.78 xG).  Although Tottenham attempted to score from outside Liverpool's penalty area 8 times, they also created some promising chances within the box, without succeeding.
 
   ![shot_maps](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/shots_maps_final_see.png)    
 
@@ -152,13 +155,13 @@ In a passing network, the thickness of a line between two players represents the
  Passing arrows maps are powerful visual tools that help teams and analysts evaluate passing dynamics, identify strengths and weaknesses, and make informed decisions to optimize their 
  tactical strategies.    
 
- - The passing arrows map below highlights Liverpool's desire to attack and build up from the left side, utilizing Robertson and Mane. Successful passes are more frequent from this area, indicating a focused effort to exploit the left flank.
+ - The passing arrows map below highlights Liverpool's desire to attack and build up from the left side, aiming Robertson and Mane. Successful passes are more frequent from this area, indicating a focused effort to build up from the left flank. Liverpool's had also difficulties in feeding players in opponent's box, that's why the number of successful passes in Tottenham's penalty area is minimal.
 
  ![Liverpool_pass_arrow](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/liverpool_arrow.png)   
 
   
- - On the other hand, it's obvious that Tottenham had way more passes escpecially in their own half. However, the successful passes in the final third of the court is significantly decreased, which is showcasing the solid Liverpool's defense and intense pressure.
-
+ - On the other hand, Tottenham had a greater number of passes but it's obvious that the majority of them were in their own half. Although, the passes in the Liverpool's box is significantly decreased, as it is shown below, it's significantly greater than Liverpool's successful attempts.
+   
  ![Tottenham_pass_arrow](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/Tottenham_Arrows.png)  
 
 
@@ -173,16 +176,17 @@ In a passing network, the thickness of a line between two players represents the
 
   ### Players's-Contribution  
 
-  Next, we've developed a Tableau dashboard showcasing the distribution of diverse football metrics attributed to players. These include statistics like shots taken, aerial duels won, and possession indicators such as passes, ball receipts, and carries. In addition, the table in the top right corner displays players' shots, detailing each shot's outcome and its corresponding expected goals (xG) value.  
+  Finally, we've developed a Tableau dashboard showcasing the distribution of diverse football metrics attributed to players. These include statistics like shots taken, aerial duels won, and possession indicators such as passes, ball receipts, and carries. In addition, the table in the top right corner displays players' shots, detailing each shot's outcome and its corresponding expected goals (xG) value.  
 
   ![dashboard](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/Dashboard%201.png) 
 
 
-  - Origi scored the second goal with xG value of 0.08.  
-  - We observe that Salah had the most scoring attempts (6 shots) during the game and the most ball receipts (52) too. Sadio Mane is second in the ball receipts with 45 for Liverpool.
-  - Robertson is the player with the most passes (54) and carries (29) for Liverpool with Trent Alexanter Arnold in the second place with 47, highlighting Liverpool's strategic emphasis on using their wide players to create scoring opportunities.
-  - Finally, we confirm the Tottenham's possession dominance, since the defenders dominated in passing, ball receipts and carries. 
-    
+#### Additional remarkable insights from the game:
+  - Origi scored the second goal with xG value of 0.08 ! 
+  - Salah had the most scoring attempts (6 shots) during the game for both teams and the most ball receipts (52) for Liverpool. Sadio Mane is second in the ball receipts with 45 for Liverpool.
+  - Robertson is the player with the most passes (54) and carries (29) for Liverpool with Trent Alexanter Arnold in the second place in passes with 47, highlighting Liverpool's strategic emphasis on using their wide players to build up and create scoring opportunities.
+  - We confirm Tottenham's possession dominance, since the defenders dominated in passing, ball receipts and carries too. Spurs's goalkeeper (Lloris) participated in team's build up, showcasing the importance of a modern goalkeeper to have  really good skills with the ball.
+  - Lloris received the ball 42 times, indicating that Tottenham's players passed to him frequently. This reflects Liverpool's intense pressure in their attacking third    
 
   
                      
