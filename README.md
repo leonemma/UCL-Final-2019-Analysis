@@ -83,19 +83,6 @@ StatsBomb data is widely used in football analytics due to its high level of det
 For further details, refer to the official [StatsBomb Open Data repository](https://github.com/statsbomb/open-data).
 
 
-1.  The data for this analysis was obtained using the __mplsoccer__ library, which provides functionalities for accessing football match data. Here's a breakdown of the retrieval process:
-```python
-from mplsoccer import Sbopen, VerticalPitch, Pitch, create_transparent_cmap, FontManager, arrowhead_marker
-```
-2.  Data Retrieval: We used the parser module from the mplsoccer library to retrieve specific data related to the UEFA Champions League Final 2019.
-```python
-df_competition = parser.competition()
-df_match = parser.match(competition_id=16, season_id=4)
-df_lineup = parser.lineup(22912)
-df_event, df_related, df_freeze, df_tactics = parser.event(22912)
-```
-3.  Dataframe Selection: Among the retrieved dataframes, we primarily utilized __df_event__ for our analysis, as it contained the relevant match event data.
-
 ## Key-Questions  
 
 1. How did the expected goals (xG) change throughout the match, and what moments influenced these changes?
