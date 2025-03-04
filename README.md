@@ -53,6 +53,35 @@ Key Findings:
  - To access the Tableau dashboard, click [here](https://public.tableau.com/app/profile/leonidas.emmmanouilidis/viz/UCLFinal2019_17133834605920/Dashboard1)
    
 ## Data   
+This analysis utilizes the `mplsoccer` library to load and analyze football (soccer) event data. The dataset used is sourced from **StatsBomb**, an open-source football analytics provider known for its detailed event data.
+
+The data in this project is parsed using `mplsoccer`'s `Sbopen` parser, which supports **StatsBomb JSON event data**. StatsBomb provides extensive match event data, including passes, shots, tackles, and other key football actions.
+
+The following code snippet demonstrates how the data is loaded:
+
+```python
+from mplsoccer import Sbopen, VerticalPitch, Pitch, create_transparent_cmap, FontManager, arrowhead_marker
+
+# Initialize parser
+parser = Sbopen()
+
+# Load competition, match, lineup, and event data
+df_competition = parser.competition()
+df_match = parser.match(competition_id=16, season_id=4)
+df_lineup = parser.lineup(22912)
+df_event, df_related, df_freeze, df_tactics = parser.event(22912)
+```
+
+### Understanding the Data
+- **`competition()`**: Retrieves details about different competitions.
+- **`match(competition_id, season_id)`**: Fetches match details for a given competition and season.
+- **`lineup(match_id)`**: Provides lineup details for a specific match.
+- **`event(match_id)`**: Retrieves in-game event data, including passes, shots, and tackles.
+
+StatsBomb data is widely used in football analytics due to its high level of detail and accuracy. Unlike proprietary sources such as **Opta** or **Wyscout**, StatsBomb offers open-source datasets, making it ideal for analysis and visualization.
+
+For further details, refer to the official [StatsBomb Open Data repository](https://github.com/statsbomb/open-data).
+
 
 1.  The data for this analysis was obtained using the __mplsoccer__ library, which provides functionalities for accessing football match data. Here's a breakdown of the retrieval process:
 ```python
