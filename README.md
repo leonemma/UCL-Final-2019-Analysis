@@ -4,7 +4,7 @@
 
 ## Contents  
 - [Introduction](#Introduction)
-- [Installation](#Installation)
+- [Dependencies](#Dependencies)
 - [Data](#Data)
 - [Key Questions](#Key-Questions)
 - [Game Analysis](#Game-Analysis)
@@ -34,11 +34,11 @@ Key Findings:
      pip install mplsoccer 
      ```
 
-3. Power BI 
+3. `Power BI` 
 - Power BI Desktop: Download and install Power BI Desktop from the official [website](https://powerbi.microsoft.com/en-us/desktop/)
 - Open Dashboards: After downloading the [dashboard](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/UCL%20Final%202019.pbix) file, you can open it using Power BI Desktop.
 
-3. Tableau Dashboard:
+3. `Tableau`:
  - Utilized Tableau for insightful data visualization and analysis.
  - To access the Tableau dashboard, click [here](https://public.tableau.com/app/profile/leonidas.emmmanouilidis/viz/UCLFinal2019_17133834605920/Dashboard1)
    
