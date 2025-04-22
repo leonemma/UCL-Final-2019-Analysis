@@ -1,8 +1,5 @@
 # Champions League Final 2019 Analysis
 
-## Authors
-
-- [@leonemma](https://github.com/leonemma)
 - The source code for this project is available [here](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/Football%20Data%20Analysis.ipynb).
 
 ## Contents  
@@ -21,34 +18,26 @@
     
 ## Introduction
 
-Welcome to the UEFA Champions League Final 2019 Data Analysis project! In this analysis, we dive deep into an epic battle between Liverpool and Tottenham Hotspur, exploring key statistics, tactical insights and player performances, that shaped the outcome of one of football's most important matches of the season.
+In this analysis, we dive deep into an epic battle between Liverpool and Tottenham Hotspur, exploring key statistics, tactical insights and player performances, that shaped the outcome of one of football's most important matches of the season.
 
 Key Findings:
 - Team Statistics: We examined various team statistics, including shots, expected goals (xG), passes and other key performance indicators, providing a comprehensive overview of each team's performance on the pitch.
 
 - Visualizations: We utilized the mplsoccer library to create visualizations such as shot maps and passing networks and heatmaps, providing intuitive representations of match dynamics and player interactions.
 
-- Dashboard: Additionally, we developed an  dashboard using Tableau, offering detailed statistics and insights into the performance of each player during the UEFA Champions League Final.
+- Dashboard: Additionally, we developed a dashboard using Tableau, offering detailed statistics and insights into the performance of each player during the UEFA Champions League Final.
   
-## Installation
-
-1. Python: Set up a Python environment suitable for running the analysis scripts or Jupyter notebooks. You may use Anaconda or create a virtual environment.
-
-2. Dependencies: Make sure you have the required Python libraries installed. In this project we will use data and a lot of functions from the mplsoccer library. You can install it using pip:
+## Dependencies
+1. mplsoccer: Make sure you have the required Python libraries installed. In this project we will use data and a lot of functions from the `mplsoccer` library. You can install it using pip:
      ```python
      pip install mplsoccer 
      ```
-     - pandas
-     - numpy
-     - matplotlib
-     - scipy
-     - seaborn
 
-3. Power BI 
+2. Power BI 
 - Power BI Desktop: Download and install Power BI Desktop from the official [website](https://powerbi.microsoft.com/en-us/desktop/)
 - Open Dashboards: After downloading the [dashboard](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/UCL%20Final%202019.pbix) file, you can open it using Power BI Desktop.
 
-4. Tableau Dashboard:
+3. Tableau Dashboard:
  - Utilized Tableau for insightful data visualization and analysis.
  - To access the Tableau dashboard, click [here](https://public.tableau.com/app/profile/leonidas.emmmanouilidis/viz/UCLFinal2019_17133834605920/Dashboard1)
    
