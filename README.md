@@ -28,12 +28,13 @@ Key Findings:
 - Dashboard: Additionally, we developed a dashboard using Tableau, offering detailed statistics and insights into the performance of each player during the UEFA Champions League Final.
   
 ## Dependencies
-1. mplsoccer: Make sure you have the required Python libraries installed. In this project we will use data and a lot of functions from the `mplsoccer` library. You can install it using pip:
+1. `mplsoccer`:
+   Make sure you have the required Python libraries installed. In this project we will use data and a lot of functions from the mplsoccer library. You can install it using pip:
      ```python
      pip install mplsoccer 
      ```
 
-2. Power BI 
+3. Power BI 
 - Power BI Desktop: Download and install Power BI Desktop from the official [website](https://powerbi.microsoft.com/en-us/desktop/)
 - Open Dashboards: After downloading the [dashboard](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/UCL%20Final%202019.pbix) file, you can open it using Power BI Desktop.
 
