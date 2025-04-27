@@ -43,7 +43,7 @@ Key Findings:
  - To access the Tableau dashboard, click [here](https://public.tableau.com/app/profile/leonidas.emmmanouilidis/viz/UCLFinal2019_17133834605920/Dashboard1)
    
 ## Data   
-This analysis utilizes the `mplsoccer` library to load and analyze football (soccer) event data. The dataset used is sourced from **StatsBomb**, an open-source football analytics provider known for its detailed event data.
+This analysis utilizes the `mplsoccer` library to load and analyze football data. The dataset used is sourced from **StatsBomb**, an open-source football analytics provider known for its detailed event data.
 
 The data in this project is parsed using `mplsoccer`'s `Sbopen` parser, which supports **StatsBomb JSON event data**. StatsBomb provides extensive match event data, including passes, shots, tackles, and other key football actions.
 
@@ -75,12 +75,12 @@ For further details, refer to the official [StatsBomb Open Data repository](http
 
 ## Key-Questions  
 
-1. How did the expected goals (xG) change throughout the match, and what moments influenced these changes?
-2. How did the distribution of possession in different areas of the pitch?
-3. Which players were most involved in the passing buildup?
-4. Which passing combinations were most frequently used?
-5. Where did each team apply the most pressure on their opponents?
-6. Which players had the most significant impact on the game based on the overall contribution metrics?
+#### 1. How did the expected goals (xG) change throughout the match, and what moments influenced these changes?
+#### 2. How did the distribution of possession in different areas of the pitch?
+#### 3. Which players were most involved in the passing buildup?
+#### 4. Which passing combinations were most frequently used?
+#### 5. Where did each team apply the most pressure on their opponents?
+#### 6. Which players had the most significant impact on the game based on the overall contribution metrics?
 
 
 ## Game-Analysis  
@@ -110,7 +110,7 @@ For further details, refer to the official [StatsBomb Open Data repository](http
 
   ### Possession  
 
-  The following pie plot showcase the possession distribution during the game. Overall, the possession distribution indicates that Tottenham had an advantage in having the ball. However, it's necessary to take into account more metrics in order to interpretate the game result.   
+  The following pie plot shows the possession distribution during the game. Overall, the possession distribution indicates that Tottenham had an advantage in having the ball. However, it's necessary to take into account more metrics in order to interpretate the game result.   
 
   ![Possession](https://github.com/leonemma/UCL-Final-2019-Analysis/blob/main/plots/Possession.png)
   
@@ -192,7 +192,7 @@ In a passing network, the thickness of a line between two players represents the
   - Salah had the most scoring attempts (6 shots) during the game for both teams and the most ball receipts (52) for Liverpool. Sadio Mane is second in the ball receipts with 45 for Liverpool.
   - Robertson is the player with the most passes (54) and carries (29) for Liverpool with Trent Alexanter Arnold in the second place in passes with 47, highlighting Liverpool's strategic emphasis on using their wide players to build up and create scoring opportunities.
   - We confirm Tottenham's possession dominance, since the defenders dominated in passing, ball receipts and carries too. Spurs's goalkeeper (Lloris) participated in team's build up, showcasing the importance of a modern goalkeeper to have  really good skills with the ball.
-  - Lloris received the ball 42 times, indicating that Tottenham's players passed to him frequently. This reflects Liverpool's intense pressure in their attacking third    
+  - Lloris received the ball 42 times, indicating that Tottenham's players passed to him frequently. This reflects Liverpool's intense pressure in their attacking third.    
 
   
                      
